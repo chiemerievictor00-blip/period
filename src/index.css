@@ -1,0 +1,115 @@
+Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #ffe6f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+/* .container {
+  width: 350px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+} */
+
+
+.header {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #b03060;
+}
+
+.p {
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+}
+
+/* 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #d63384;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #b0256a;
+}
+
+.cycle-info {
+  margin-top: 20px;
+  background: #fff0f5;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.cycle-info p {
+  margin: 5px 0;
+}
+
+
+.calendar {
+  margin-top: 20px;
+}
+
+
+.calendar h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Grid */
+/* .calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+
+.day {
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+
+.period {
+  background: #ff4d6d;
+  color: white;
+}
+
+
+.predicted {
+  background: #ffb3c1;
+}  */
