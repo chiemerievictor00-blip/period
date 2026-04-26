@@ -1,0 +1,86 @@
+.heropage {
+    background-color: #db7698;
+    padding: 140px;
+    text-align: center;
+    gap: 400px;
+}
+
+.heropage h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+
+.heropage p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+button {
+    margin-top: 30px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+button:hover {
+    background-color: #000000;
+    cursor: pointer;
+    color: #d87093;
+}
+
+.img img {
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+.iconsbox {
+    border-top: 2px solid #000000;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+.icon {
+    background-color: #fd1381;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.icon:hover {
+    transform: scale(1.03);
+    transition: 1.05s;
+    background-color: #fc96b8;
+}
+
+.icon h3 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.icon p {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.icon i {
+    color: #000000;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}

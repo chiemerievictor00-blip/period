@@ -1,44 +1,72 @@
-import Period from "./Components/Period.jsx"
+import React from 'react'
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Nav from './Components/Nav.jsx';
+import Heropage from './Components/Heropage.jsx';
+import Footer from './Components/Footer.jsx';
+import Home from './Pages/Home.jsx';
+import Tips from './Pages/Tips.jsx';
+import Tracker from './Pages/Tracker.jsx';
 
-function App () {
 
+const App = () => {
   return (
-
-    <div className = "cycletracker">
-
-      {/* header details */}
-
-      <div className="header">
-        <h1>🌸Cycle Tracker</h1>
-      </div>
-      <div className="p">
-        <h5>Track your period to take care of yourself.</h5>
-      </div>
-
-
-      {/* form */}
-
-
-      <form onSubmit={"handleSubmit"}>
-
-        <label>Select your last period (date):</label>
-        <input type="date" value={date} onChange={(e) => setDate(e.target.value)}
-        required/>
-
-        <label>Cycle Length (days):</label>
-        <input type="number" value={cycleLength} onChange={(e) => setCycleLength(Number(e.target.value))} min="28" max="40"
-        required/>
-
-        <button type="submit">Add Period</button>
-
-
-      </form>
-    
+    <div>
+      <BrowserRouter>
+      <Nav/>
+      <Routes>
+        <Route path="/" element = {<Home/>}/>
+        <Route path="/Tips" element = {<Tips/>}/>
+        <Route path="/Tracker" element = {<Tracker/>}/>
+      </Routes>
+      </BrowserRouter>
+      <Footer/>
     </div>
   );
 }
 
-export default App;
+export default App
+
+// import Period from "./Components/Period.jsx"
+
+// function App () {
+
+//   return (
+
+//     <div className = "cycletracker">
+
+//       {/* header details */}
+
+//       <div className="header">
+//         <h1>🌸Cycle Tracker</h1>
+//       </div>
+//       <div className="p">
+//         <h5>Track your period to take care of yourself.</h5>
+//       </div>
+
+
+//       {/* form */}
+
+
+//       <form onSubmit={"handleSubmit"}>
+
+//         <label>Select your last period (date):</label>
+//         <input type="date" value={date} onChange={(e) => setDate(e.target.value)}
+//         required/>
+
+//         <label>Cycle Length (days):</label>
+//         <input type="number" value={cycleLength} onChange={(e) => setCycleLength(Number(e.target.value))} min="28" max="40"
+//         required/>
+
+//         <button type="submit">Add Period</button>
+
+
+//       </form>
+    
+//     </div>
+//   );
+// }
+
+// export default App;
 
 // import { useState, useEffect } from "react";
 // import Period from "./Components/Period"
