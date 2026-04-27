@@ -1,7 +1,8 @@
 import React from 'react'
 import '../Styles/Heropage.css';
+import { Link } from 'react-router-dom';
 
-function Heropage () {
+const Heropage = () => {
   return ( 
 
     <>  
@@ -11,7 +12,10 @@ function Heropage () {
                 Your personal space to track your menstrual cycle, understand your body,
                 and stay informed every day. Health awareness made simple and stress-free.
             </p>
-            <button>Start Tracking</button>
+            <div className="herobtn">
+                <Link to="/tracker"><button>Start Tracking</button></Link>
+            </div>
+
 
         </div>
 

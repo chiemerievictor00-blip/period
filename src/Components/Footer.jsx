@@ -1,10 +1,10 @@
 import React from 'react'
+import '../Styles/Footer.css'
 
 const Footer = () => {
   return (
-    <div>
-        <p>footer details</p>
-      
+    <div className='footer'>
+        <p>&copy;{new Date(). getFullYear()} Cycle Tracker. All Rights</p>
     </div>
   )
 }

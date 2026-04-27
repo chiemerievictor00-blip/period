@@ -2,7 +2,7 @@ import React from "react"
 import '../Styles/Nav.css';
 import { NavLink } from "react-router-dom";
 
-function  Nav () {
+const Nav = () => {
   return (
     <div className="navbar">
         <div className="logo">

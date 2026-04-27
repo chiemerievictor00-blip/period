@@ -1,0 +1,36 @@
+.tipsheropage {
+    background-color: #ff4b7d;
+    padding: 140px;
+}
+
+.tipsheropage h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+.tipsheropage p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.tipsheropage p span {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tipsiconsbox {
+    border-top: 2px solid #000000;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 50px;
+}
