@@ -6,6 +6,7 @@ import Footer from './Components/Footer.jsx';
 import Home from './Pages/Home.jsx';
 import Tips from './Pages/Tips.jsx';
 import Tracker from './Pages/Tracker.jsx';
+import './App.css';
 
 
 const App = () => {

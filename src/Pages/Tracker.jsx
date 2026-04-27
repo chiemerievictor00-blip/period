@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../Styles/Tracker.css";
 
 function Tracker() {
-  const [startDate, setStartDate] = useState("2024-05-15");
+  const [startDate, setStartDate] = useState("2026-04-30");
   const [cycleLength, setCycleLength] = useState(28);
   const [nextPeriod, setNextPeriod] = useState("");
   const [ovulationDate, setOvulationDate] = useState("");
